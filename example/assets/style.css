@@ -1,0 +1,44 @@
+.exmp3.exmp4{
+    font-size: 20px;
+}
+p.intro{
+    color: red;
+}
+p,div{
+    color: green;
+}
+div>p{
+    font-size: 30px   ;
+}
+div + p {
+    background-color: yellow;
+  }
+[title~=game]{
+    border:10px solid red;
+    height: 500px;
+}
+[title~=film]{
+   height: 500px;
+}
+a[href$=".org/"]{
+font-size: 20px;
+color: red;
+}
+a:active{
+    color: green;
+}
+input:checked{
+    height: 100px;
+}
+input:disabled{
+   background-color: yellow;
+}
+p:first-child {
+    background-color: #000;
+  }
+.hover:hover{
+border: 10px solid #000;
+}
+p:last-child{
+    border: 10px solid red;
+}
